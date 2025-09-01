@@ -1,0 +1,4 @@
+.greyscale-toggle {
+  filter: grayscale(100%) !important;
+  -webkit-filter: grayscale(100%) !important;
+}

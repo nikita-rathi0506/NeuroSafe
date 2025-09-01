@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeuroSafe Settings</title>
+  <link href="../popup/popup.css" rel="stylesheet">
+  <style>
+    body { width: 400px; padding: 20px; }
+    .setting-group { margin-bottom: 20px; }
+    label { display: flex; margin-right: 8px 0; }
+  </style>
+</head>
+<body>
+  <h1>NeuroSafe Settings</h1>
+  
+  <div class="setting-group">
+    <h3>Accessibility</h3>
+    <label>
+      <input type="checkbox" id="dyslexiaDefault">
+      Enable Dyslexia Font by default
+    </label>
+  </div>
+
+  <div class="setting-group">
+    <h3>Voice Control</h3>
+    <label>
+      <input type="checkbox" id="voiceDefault">
+      Enable Voice Control on startup
+    </label>
+    <select id="voiceLanguage">
+      <option value="en-US">English (US)</option>
+      <option value="en-GB">English (UK)</option>
+    </select>
+  </div>
+
+  <div class="setting-group">
+    <h3>Panic Mode</h3>
+    <label>
+      Hotkey: <input type="text" id="panicHotkey" value="Space" maxlength="10">
+    </label>
+    <small>Press any key to set</small>
+  </div>
+
+  <div class="setting-group">
+    <h3>Grey Scale</h3>
+    <label>
+      <input type="checkbox" id="voiceDefault">
+      Enable Voice Control on startup
+    </label>
+    <select id="voiceLanguage">
+      <option value="en-US">English (US)</option>
+      <option value="en-GB">English (UK)</option>
+    </select>
+  </div>
+
+
+  <button id="saveBtn">Save Settings</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

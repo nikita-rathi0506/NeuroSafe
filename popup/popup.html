@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeuroSafe</title>
+  <link href="popup.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <h1>NEURO SAFE</h1>
+    <p class="subtitle">⚡ Instant Sensory Relief</p>
+
+    <div class="toggle-option">
+      <div>
+        <h4>DYSLEXIA FONT</h4>
+        <p>Special font designed for dyslexia</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="dyslexiaToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle-option">
+      <div>
+        <h4>MOTION SHIELD</h4>
+        <p>Reduces motion on websites</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="audioToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle-option">
+      <div>
+        <h4>AUTOPLAY BLOCKER</h4>
+        <p>Prevents videos from playing automatically</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="motionToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="toggle-option">
+      <div>
+        <h4>VOICE CONTROL</h4>
+        <p>Enable voice commands</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="voiceToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+   
+    <div class="toggle-option">
+      <div>
+        <h4><b>Grey Scale</b></h4>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="greyscaleToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <button id="panicBtn" class="panic-circle" aria-label="Activate panic mode">
+      🚨 PANIC
+    </button>
+
+    <div id="voiceStatus" class="status">Voice: Off</div>
+    <div id="errorDisplay" class="error-hidden"></div>
+    
+    <a href="#" id="settingsLink" class="advanced-link">Advanced Settings</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
