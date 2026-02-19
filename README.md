@@ -1,5 +1,6 @@
 <img width="84" height="25" alt="11" src="https://github.com/user-attachments/assets/5ad609de-f25f-4a76-b773-878dbfbb8d70" />
 <img width="93" height="23" alt="12" src="https://github.com/user-attachments/assets/ed0f53ff-0db1-4c21-9e6f-f43bfdc4f1a6" />
+
 🧠 NeuroSafe: Browse Without Pain 
 An AI-powered browser extension that provides real-time, adaptive sensory protection for neurodivergent users, making the web a safer and more accessible place.
 
@@ -46,12 +47,8 @@ An AI-powered browser extension that provides real-time, adaptive sensory protec
   * Click the puzzle piece icon in Chrome's toolbar
   * Pin NeuroSafe for easy access
 
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/65fbecef-88f6-4090-a9b0-e7c4f72621c3" />Video
-
 
 https://github.com/user-attachments/assets/0864cc87-ebbc-4b09-98dd-4660912d5727
-
-
 
 
 🏗️ System Architecture
