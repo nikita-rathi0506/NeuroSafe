@@ -2,6 +2,7 @@
 <img width="93" height="23" alt="12" src="https://github.com/user-attachments/assets/ed0f53ff-0db1-4c21-9e6f-f43bfdc4f1a6" />
 
 🧠 NeuroSafe: Browse Without Pain 
+
 An AI-powered browser extension that provides real-time, adaptive sensory protection for neurodivergent users, making the web a safer and more accessible place.
 
 
@@ -34,6 +35,7 @@ An AI-powered browser extension that provides real-time, adaptive sensory protec
 
 
 🚀 Installation
+
 1.Clone the repository
   git clone https://github.com/rakshitdev18/NueroSafe.git
   cd NueroSafe
@@ -54,6 +56,7 @@ https://github.com/user-attachments/assets/0864cc87-ebbc-4b09-98dd-4660912d5727
 🏗️ System Architecture
 
   NeuroSafe Extension
+  
     ├── popup.html          # Extension popup UI
     ├── content.js          # Content scripts for DOM manipulation
     ├── background.js       # Background service worker
@@ -89,6 +92,7 @@ https://github.com/user-attachments/assets/0864cc87-ebbc-4b09-98dd-4660912d5727
 
 
 📄 License
+
   This project is licensed under the MIT License - see the LICENSE file for details.
 
 
