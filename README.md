@@ -106,8 +106,7 @@ https://github.com/user-attachments/assets/0864cc87-ebbc-4b09-98dd-4660912d5727
   -> Nikita Rathee
   * Email: rathi05nikki@gmail.com
   * LinkedIn: linkedin.com/in/nikita-rathee-918324346
-  * GitHub: github.com/CozNuts
-
+  * GitHub: github.com/nikita-rathi0506
 
 
 ⭐ If you find this project helpful, please give it a star! ⭐
